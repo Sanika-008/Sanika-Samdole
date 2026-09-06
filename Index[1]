@@ -1,0 +1,769 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="utf-8" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Title -->
+    <title>
+	ग्रामपंचायत राधानगरी | अधिकृत संकेतस्थळ
+</title><meta id="metaDescription" name="description" content="राधानगरी, ता. राधानगरी, जि. कोल्हापूर यांचे अधिकृत संकेतस्थळ." /><meta id="metaKeywords" name="keywords" content="राधानगरी, Gram Panchayat राधानगरी, Maharashtra GP Website" /><meta name="author" content="Revolution IT Solutions, Kolhapur" /><meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta id="ogTitle" property="og:title" content="ग्रामपंचायत राधानगरी | अधिकृत संकेतस्थळ" /><meta id="ogDescription" property="og:description" content="राधानगरी, ता. राधानगरी, जि. कोल्हापूर यांचे अधिकृत संकेतस्थळ." /><meta id="ogUrl" property="og:url" content="https://radhanagari.gpwebsite.in" /><meta id="ogImage" property="og:image" content="https://radhanagari.gpwebsite.in/Uploads/Logos/02a9cb86-9052-449d-b1a6-c7938f705a01.png" />
+
+    <!-- Twitter -->
+    <meta id="twitterTitle" name="twitter:title" content="ग्रामपंचायत राधानगरी | अधिकृत संकेतस्थळ" /><meta id="twitterDescription" name="twitter:description" content="राधानगरी, ता. राधानगरी, जि. कोल्हापूर यांचे अधिकृत संकेतस्थळ." /><meta id="twitterImage" name="twitter:image" content="https://radhanagari.gpwebsite.in/Uploads/Logos/02a9cb86-9052-449d-b1a6-c7938f705a01.png" />
+
+
+    <!-- Favicons -->
+    
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" /><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" /><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&amp;family=Yatra+One&amp;display=swap" rel="stylesheet" />
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" /><link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" /><link href="assets/vendor/aos/aos.css" rel="stylesheet" /><link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" /><link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- Toastr CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+    <!-- jQuery (required for Toastr) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <style>
+        body {
+            /*font-family: "Yatra One", system-ui;*/
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        h1, h2, h4 {
+            font-family: "Yatra One", system-ui;
+        }
+
+        footer a {
+            color: white;
+        }
+    </style>
+
+    
+    <link href="assets/css/index.css" rel="stylesheet" />
+<link href="https://radhanagari.gpwebsite.in/Uploads/Logos/02a9cb86-9052-449d-b1a6-c7938f705a01.png" rel="icon" type="image/png" /><link href="https://radhanagari.gpwebsite.in/Uploads/Logos/02a9cb86-9052-449d-b1a6-c7938f705a01.png" rel="apple-touch-icon" /></head>
+<body>
+    <form method="post" action="./Index" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+</div>
+        <div>
+            <header id="header" class="header d-flex align-items-center sticky-top">
+                <div style="margin-left: 25px" class="container-fluid container-xl position-relative d-flex align-items-center">
+
+                    <a href="Index.aspx" class="logo d-flex align-items-center me-auto">
+                        <!-- Uncomment the line below if you also wish to use an image logo -->
+                        <img src="/Uploads/Logos/02a9cb86-9052-449d-b1a6-c7938f705a01.png" id="imgHeaderLogo" />
+
+                        
+                        
+                    </a>
+
+                    <nav id="navmenu" class="navmenu">
+                        <ul>
+                            <li><a href="Index.aspx">मुखपृष्ठ</a></li>
+                            <li><a href="About.aspx">ग्रामपंचायतीबद्दल</a></li>
+                            <li><a href="Services.aspx">सेवा</a></li>
+                            <li><a href="Projects.aspx">विकासकामे</a></li>
+                            <li><a href="Schemes.aspx">योजना</a></li>
+                            <li><a href="NoticeBoard.aspx">नोटीस बोर्ड</a></li>
+                            <li><a href="MyVillage.aspx">माझे गाव</a></li>
+                            <li><a href="PAI.aspx">PAI</a></li>
+
+                            <li><a href="Gallery.aspx">गॅलरी  </a></li>
+                            <li><a href="Lekh.aspx">लेख </a></li>
+
+                            <li><a href="Contact.aspx">संपर्क</a></li>
+                        </ul>
+                        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                    </nav>
+
+
+
+                </div>
+            </header>
+            <main class="main">
+                
+    <div class="gp-notification-bar">
+        <div class="container-fluid">
+            <div class="notification-content">
+                <span class="label">सूचना :</span>
+                <marquee behavior="scroll" direction="left" scrollamount="6">
+                     • नागरिकांचा सहभाग म्हणजे गावाचा विकास • पारदर्शक प्रशासन हीच खरी लोकसेवा • स्वच्छ गाव, समृद्ध गाव हेच आपले ध्येय आहे
+                </marquee>
+
+            </div>
+        </div>
+    </div>
+    <div id="gpCarousel" class="carousel slide gp-carousel" data-bs-ride="carousel">
+
+        <!-- Indicators (DOTS ONLY) -->
+
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+            
+                    <div class="carousel-item active">
+                        <img src="/Uploads/Sliders/17_b984ece8854a4c468893c43e03306171_राधानगरी.jpg" class="d-block w-100" alt="Slider">
+                    </div>
+                
+                    <div class="carousel-item ">
+                        <img src="/Uploads/Sliders/17_e6396ab5e75f48ea8a0831e58e6c7087_राधानगरी.jpg" class="d-block w-100" alt="Slider">
+                    </div>
+                
+                    <div class="carousel-item ">
+                        <img src="/Uploads/Sliders/17_edcce36a881047e1adf4b97e13e9d156_राधानगरी.jpg" class="d-block w-100" alt="Slider">
+                    </div>
+                
+        </div>
+
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button"
+            data-bs-target="#gpCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+            data-bs-target="#gpCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+
+    <section id="welcome" class="gp-welcome-section section">
+
+        <!-- Section Title -->
+        <div class="container">
+            <h2 style="color: #a94832">
+                ग्रामपंचायत राधानगरी
+            </h2>
+            <p>
+                ता. राधानगरी, जि. कोल्हापूर
+            </p>
+
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <p class="intro-text">
+                    या संकेतस्थळावर आपले मनःपूर्वक स्वागत आहे.
+     नागरिकांना ग्रामपंचायतीच्या योजना, सेवा व उपक्रमांची अचूक आणि पारदर्शक माहिती
+     एका ठिकाणी उपलब्ध करून देणे हा या संकेतस्थळाचा मुख्य उद्देश आहे.
+                </p>
+                <!-- Left Content -->
+                <div class="col-lg-6 gp-content">
+
+
+                    <ul class="gp-points">
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            ग्रामपंचायतीच्या विविध योजना व उपक्रमांची माहिती
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            नागरी सुविधा व सेवा ऑनलाईन उपलब्ध
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle-fill"></i>
+                            पारदर्शक, जबाबदार व लोकाभिमुख प्रशासन
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-lg-6 gp-content">
+                    <p>
+                        ग्रामविकासासाठी नागरिकांचा सहभाग अत्यंत महत्त्वाचा आहे.
+                    स्वच्छता, पाणीपुरवठा, रस्ते, शिक्षण, आरोग्य व डिजिटल सेवा
+                    यामध्ये सातत्याने सुधारणा करणे हे ग्रामपंचायतीचे ध्येय आहे.
+                    </p>
+
+                    <a href="About.aspx" class="btn btn-success">अधिक माहिती <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- /Clients Section -->
+    <section id="village-info" class="gp-village-info section">
+
+        <!-- Section Title -->
+        <div class="container text-center mb-4">
+            <h2 class="gp-section-title">गावाची माहिती</h2>
+
+        </div>
+
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+
+                <!-- Total Area -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="gp-info-card text-center h-100">
+                        <div class="info-icon">📐</div>
+                        <h5>एकूण क्षेत्रफळ</h5>
+                        <p>
+                            883.00 चौ. कि.मी.
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- Population -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="gp-info-card text-center h-100">
+                        <div class="info-icon">👨‍👩‍👧‍👦</div>
+                        <h5>लोकसंख्या</h5>
+                        <p>
+                            6197<br/> (पुरुष - 3144, महिला - 3053)
+                        </p>
+
+                    </div>
+                </div>
+
+                <!-- LGD Code -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="gp-info-card text-center h-100">
+                        <div class="info-icon">🏷️</div>
+                        <h5>LGD कोड</h5>
+                        <p>
+                            179044
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+        <!-- Section Title -->
+        <div class="container text-center mb-4">
+            <h2 class="gp-section-title">सेवा</h2>
+            <p class="gp-section-subtitle text-center">ग्रामपंचायतीकडून पुरविण्यात येणाऱ्या सेवा</p>
+        </div>
+
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- जन्म प्रमाणपत्र -->
+                <div class="col-md-6">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-person-badge icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title">जन्म प्रमाणपत्र</h4>
+                            <p class="description">
+                                गावाच्या हद्दीत जन्म झाला असल्यास २१ दिवसांच्या आत जन्म नोंदणी केली जाते
+                            व जन्म प्रमाणपत्र प्रदान केले जाते.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- मृत्यू प्रमाणपत्र -->
+                <div class="col-md-6">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-file-earmark-medical icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title">मृत्यू प्रमाणपत्र</h4>
+                            <p class="description">
+                                गावाच्या हद्दीत मृत्यू झाल्यास २१ दिवसांच्या आत मृत्यू नोंदणी केली जाते
+                            व मृत्यू प्रमाणपत्र दिले जाते.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- विवाह नोंदणी -->
+                <div class="col-md-6">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-heart-fill icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title">विवाह नोंदणी</h4>
+                            <p class="description">
+                                विवाह नोंदणी अधिनियम 1998 नुसार विवाह नोंदणीची सेवा ग्रामपंचायतीमार्फत
+                            पुरविण्यात येते.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- थकबाकी नसल्याचे प्रमाणपत्र -->
+                <div class="col-md-6">
+                    <div class="service-item d-flex position-relative h-100">
+                        <i class="bi bi-file-check-fill icon flex-shrink-0"></i>
+                        <div>
+                            <h4 class="title">थकबाकी नसल्याचे प्रमाणपत्र</h4>
+                            <p class="description">
+                                ग्रामपंचायत करांची कोणतीही थकबाकी नसल्यास
+                            थकबाकी नसल्याचे प्रमाणपत्र दिले जाते.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- View More Button -->
+            <div class="text-center mt-4">
+                <a href="Services.aspx" class="btn btn-success">अधिक सेवा पहा <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="officials" class="gp-officials-section section">
+
+        <!-- Section Title -->
+        <div class="container text-center mb-4">
+            <h2 class="gp-section-title">पदाधिकारी व कर्मचारी</h2>
+
+        </div>
+
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+
+                
+                        <div class="col-md-4 col-sm-6">
+                            <div class="gp-card text-center h-100">
+                                <img src="/Uploads/Sliders/17_795aee88-120f-4b3e-a40f-69976e32adb9_bearer.jpg" class="gp-photo" />
+                                <h5 class="gp-name">सविता राजाराम भाटले</h5>
+                                <p class="gp-designation">
+    सरपंच
+</p>
+                                <p class="gp-contact">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <a href='tel:9921114234'>
+                                        9921114234
+                                    </a>
+                                    <br />
+
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <a href='mailto:savitabhatale9930@gmail.com'>
+                                        savitabhatale9930@gmail.com
+                                    </a>
+                                </p>
+
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-4 col-sm-6">
+                            <div class="gp-card text-center h-100">
+                                <img src="/Uploads/Sliders/17_13f47fdd-8917-45cb-8051-56944bdcfcde_bearer.jpg" class="gp-photo" />
+                                <h5 class="gp-name">अरुणा अरविंद पोवार</h5>
+                                <p class="gp-designation">
+    उपसरपंच
+</p>
+                                <p class="gp-contact">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <a href='tel:9823786609'>
+                                        9823786609
+                                    </a>
+                                    <br />
+
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <a href='mailto:07radha.radhanagari@gmail.com'>
+                                        07radha.radhanagari@gmail.com
+                                    </a>
+                                </p>
+
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-4 col-sm-6">
+                            <div class="gp-card text-center h-100">
+                                <img src="/Uploads/Sliders/17_835136d2-77bf-4e9f-b3a4-2aae69dbbf85_bearer.png" class="gp-photo" />
+                                <h5 class="gp-name">युवराज शंकर पाटील</h5>
+                                <p class="gp-designation">
+    ग्रामपंचायत अधिकारी
+</p>
+                                <p class="gp-contact">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <a href='tel:8605906007'>
+                                        8605906007
+                                    </a>
+                                    <br />
+
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <a href='mailto:07radha.radhanagari@gmail.com'>
+                                        07radha.radhanagari@gmail.com
+                                    </a>
+                                </p>
+
+                            </div>
+                        </div>
+                    
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- /Services Section -->
+    <section id="development-works" class="gp-development-section section">
+
+        <!-- Section Title -->
+        <div class="container text-center mb-4">
+            <h2 class="gp-section-title">विकासकामे</h2>
+
+        </div>
+
+        <div class="container">
+            <div class="row gy-4">
+
+                <!-- LEFT: Development Works -->
+                <div class="col-lg-8">
+                    <div class="row gy-4">
+
+                        
+                                <div class="col-md-4">
+                                    <div class="gp-work-card">
+                                        <img src="/Uploads/Sliders/17_cb66a1ad-d78c-4700-8322-526084fd359e_work.png" class="gp-work-img" />
+                                        <div class="gp-work-details">
+                                            <p><strong>कामाचे नाव:</strong> सर्व अंगणवाडी साठी बेंच खरेदी करणे</p>
+                                            <p><strong>वर्ष:</strong> 2025</p>
+                                            <p><strong>ठिकाण:</strong> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4">
+                                    <div class="gp-work-card">
+                                        <img src="/Uploads/Sliders/17_7e1977e9-1fe1-4d35-a305-2864e70f6181_work.png" class="gp-work-img" />
+                                        <div class="gp-work-details">
+                                            <p><strong>कामाचे नाव:</strong> गावाला पाणीपुरवठा</p>
+                                            <p><strong>वर्ष:</strong> 2025</p>
+                                            <p><strong>ठिकाण:</strong> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4">
+                                    <div class="gp-work-card">
+                                        <img src="/Uploads/Sliders/17_9629a84c-5632-4163-a120-4e8458beefba_work.jpg" class="gp-work-img" />
+                                        <div class="gp-work-details">
+                                            <p><strong>कामाचे नाव:</strong> एल.ए.डी/दिव्याची सोय करणे</p>
+                                            <p><strong>वर्ष:</strong> 2025</p>
+                                            <p><strong>ठिकाण:</strong> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4">
+                                    <div class="gp-work-card">
+                                        <img src="/Uploads/Sliders/17_f6ceb81b-161c-46bf-b39f-f986655b8367_work.png" class="gp-work-img" />
+                                        <div class="gp-work-details">
+                                            <p><strong>कामाचे नाव:</strong> पिण्याच्या पाण्याच्या नवीन स्रोताची निर्मिती</p>
+                                            <p><strong>वर्ष:</strong> 2025</p>
+                                            <p><strong>ठिकाण:</strong> राधानगरी</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4">
+                                    <div class="gp-work-card">
+                                        <img src="/Uploads/Sliders/17_e9589a72-289f-4883-866e-7d7790dc0940_work.png" class="gp-work-img" />
+                                        <div class="gp-work-details">
+                                            <p><strong>कामाचे नाव:</strong> ड्रेनेज बांधकाम</p>
+                                            <p><strong>वर्ष:</strong> 2025</p>
+                                            <p><strong>ठिकाण:</strong> राधानगरी</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                <div class="col-md-4">
+                                    <div class="gp-work-card">
+                                        <img src="/Uploads/Sliders/17_ec789408-3525-41fb-8d81-87384c9ff4c4_work.png" class="gp-work-img" />
+                                        <div class="gp-work-details">
+                                            <p><strong>कामाचे नाव:</strong> स्वच्छता सामान खरेदी</p>
+                                            <p><strong>वर्ष:</strong> 2025</p>
+                                            <p><strong>ठिकाण:</strong> राधानगरी</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+
+
+                    </div>
+                </div>
+
+                <!-- RIGHT: Emergency Contacts -->
+                <div class="col-lg-4">
+                    <div class="gp-emergency-box">
+                        <h4 class="emergency-title">आपत्कालीन संपर्क</h4>
+
+                        <ul class="emergency-list">
+                            <li>
+                                <span class="icon">🚓</span>
+                                <span class="text">पोलीस</span>
+                                <span class="number">
+                                    <a href="tel:100">100</a>
+                                </span>
+                            </li>
+
+                            <li>
+                                <span class="icon">🚑</span>
+                                <span class="text">रुग्णवाहिका</span>
+                                <span class="number">
+                                    <a href="tel:108">108</a>
+                                </span>
+                            </li>
+
+                            <li>
+                                <span class="icon">🔥</span>
+                                <span class="text">अग्निशमन</span>
+                                <span class="number">
+                                    <a href="tel:102">102</a>
+                                </span>
+                            </li>
+
+                            <li>
+                                <span class="icon">💉</span>
+                                <span class="text">रक्तपेढी</span>
+                                <span class="number">
+                                    <a href="tel:104">104</a>
+                                </span>
+                            </li>
+
+                            <li>
+                                <span class="icon">⚡</span>
+                                <span class="text">महापारेषण</span>
+                                <span class="number">
+                                    <a href="tel:1912">1912</a>
+                                </span>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=19394854&amp;language=en&amp;region=IN&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius" name="CW2" scrolling="no" class="mt-4" width="100%" height="318" frameborder="0" style="border: 1px solid #10658E;border-radius: 8px"></iframe>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="Projects.aspx" class="btn btn-success">सर्व पहा <i class="bi bi-arrow-right"></i>
+            </a>
+        </div>
+
+    </section>
+
+            </main>
+            <footer id="footer" class="footer dark-background">
+
+                <div class="container footer-top">
+                    <div class="row gy-4">
+                        <div class="col-lg-4 col-md-6 footer-about">
+                            <a href="Index.aspx" class="logo d-flex align-items-center">
+                                <img src="/Uploads/Logos/02a9cb86-9052-449d-b1a6-c7938f705a01.png" id="imgFooterLogo" style="max-height: 60px; background: white; border-radius: 10px;" />
+
+                            </a>
+                            
+                            <div class="social-links d-flex mt-4">
+
+                                
+                                
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>महत्वाची संकेतस्थळे</h4>
+                            <ul class="gp-links">
+                                <li>
+                                    <i class="bi bi-link-45deg"></i>
+                                    <a target="_blank" href="https://maharashtra.gov.in/">महाराष्ट्र शासन</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-link-45deg"></i>
+                                    <a target="_blank" href="https://majhigrampanchayat.com/">माझी ग्रामपंचायत</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-link-45deg"></i>
+                                    <a target="_blank" href="https://rdd.maharashtra.gov.in/">ग्रामविकास विभाग</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-link-45deg"></i>
+                                    <a target="_blank" href="https://egramswaraj.gov.in/">ई-ग्रामस्वराज</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-link-45deg"></i>
+                                    <a target="_blank" href="https://gr.maharashtra.gov.in/">शासन निर्णय</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-link-45deg"></i>
+                                    <a target="_blank" href="https://nrega.dord.gov.in/">MGNREGA</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-lg-2 col-md-3 footer-links">
+                            <h4>लिंक्स</h4>
+                            <ul>
+                                <li><i class="bi bi-link-45deg"></i><a href="Index.aspx">मुखपृष्ठ</a></li>
+
+
+                                <li><i class="bi bi-link-45deg"></i><a href="Projects.aspx">विकासकामे</a></li>
+                                <li><i class="bi bi-link-45deg"></i><a href="Schemes.aspx">योजना</a></li>
+                                <li><a href="NoticeBoard.aspx">नोटीस बोर्ड</a></li>
+                                <li><i class="bi bi-link-45deg"></i><a href="MyVillage.aspx">माझे गाव</a></li>
+
+
+                                <li><i class="bi bi-link-45deg"></i><a href="Gallery.aspx">गॅलरी  </a></li>
+
+
+                                <li><i class="bi bi-link-45deg"></i><a href="Contact.aspx">संपर्क</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12 footer-newsletter">
+                            <h4>संपर्क</h4>
+                            <div class="footer-contact">
+                                <p id="lblFooterAddress1">ग्रामपंचायत कार्यालय,</p>
+                                <p id="lblFooterAddress2">राधानगरी, ता. राधानगरी, जि. कोल्हापूर 416234</p>
+                                <p class="mt-3">
+                                    <strong>संपर्क क्र.:</strong>
+                                    <span><a href="tel:8605906007" id="lnkFooterMobile">8605906007</a></span>
+                                </p>
+                                <p>
+                                    <strong>ई-मेल:</strong>
+                                    <span><a href="mailto: 07radha.radhanagari@gmail.com" id="lnkFooterEmail"> 07radha.radhanagari@gmail.com</a></span>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container copyright text-center mt-4">
+                    <p>© <span>Copyright</span> <strong class="px-1 sitename">ग्रामपंचायत
+                        राधानगरी
+                        |</strong> <span>All Rights Reserved</span></p>
+                    <div class="credits">
+                        Designed by <a style="text-decoration: underline" href="https://www.revolutionit.in">Revolution IT Solutions</a>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+    </form>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+
+        if ('serviceWorker' in navigator && 'PushManager' in window) {
+
+            navigator.serviceWorker.register('/sw.js')
+                .then(function (registration) {
+
+                    Notification.requestPermission()
+                        .then(function (permission) {
+
+                            if (permission === "granted") {
+                                subscribeUser(registration);
+                            }
+
+                        });
+
+                });
+
+        }
+
+        function subscribeUser(registration) {
+
+            const vapidPublicKey = 'BB4dxX3PEQCkuthPnw1vxB0UK5yci5XoW-SOQhm_WpU2A4kaf-1epb-a1D2uMWWS_YXkFXqI0r3mMdhDfkbF4MM';
+
+            const convertedKey = urlBase64ToUint8Array(vapidPublicKey);
+
+            registration.pushManager.subscribe({
+                userVisibleOnly: true,
+                applicationServerKey: convertedKey
+            })
+                .then(function (subscription) {
+
+                    fetch("/SaveSubscription.ashx", {
+                        method: "POST",
+                        body: JSON.stringify(subscription),
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    });
+
+                });
+
+        }
+
+        function urlBase64ToUint8Array(base64String) {
+
+            const padding = '='.repeat((4 - base64String.length % 4) % 4);
+            const base64 = (base64String + padding)
+                .replace(/\-/g, '+')
+                .replace(/_/g, '/');
+
+            const rawData = window.atob(base64);
+            const outputArray = new Uint8Array(rawData.length);
+
+            for (let i = 0; i < rawData.length; ++i) {
+                outputArray[i] = rawData.charCodeAt(i);
+            }
+
+            return outputArray;
+
+        }
+
+    </script>
+</body>
+</html>
